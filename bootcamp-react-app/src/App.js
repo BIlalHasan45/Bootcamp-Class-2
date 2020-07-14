@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Hello World from Bilal Hasan and Abdul Azeem</h1>
+      <h1>Hello World from Bilal Hasan</h1>
     </div>
   );
 }
