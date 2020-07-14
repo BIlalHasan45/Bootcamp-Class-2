@@ -33,9 +33,9 @@ jobs:
         cmd: install
     
     - name: Creating build
-      run: yarn build
+      run: npm build
     - name: installing surge 
-      run: yarn install -g surge
+      run: npm install -g surge
       
     - name: deploying on surge
-      run: surge ./build http://impossible-garden.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ build http://impossible-garden.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
